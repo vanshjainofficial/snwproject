@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header{
+    height: 89px;
+    border-bottom: 1px solid black;
+    padding: 0px 48px;
+    font-family: 'DotGothic16', sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 0px;
+    font-family: 'DotGothic16', sans-serif;
+}
+.nav > a {
+    font-size: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 7vw;
+    color: black;
+    font-weight: bold;
+}
+.menu-btn{
+    font-size:28px;
+    margin: 16px;
+    line-height: 32px;
+    color: black;
+    text-decoration: none;
+    font-family: 'DotGothic16', sans-serif;
+}
